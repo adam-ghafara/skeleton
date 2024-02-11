@@ -1,0 +1,364 @@
+openapi: 3.0.3
+info:
+  title: Adam Ghafara - Dokumen API
+  description: >-
+    API Swagger Web Adam
+  contact:
+    email: adam.ghafara.job@gmail.com
+  license:
+    name: Peda Package
+    url: https://github.com/adam-ghafara/pedabackend
+  version: v1.0.0
+externalDocs:
+  description: Repo GCF
+  url: https://github.com/adam-ghafara/gcf
+servers:
+  - url: https://asia-southeast2-idyllic-gear-412410.cloudfunctions.net/
+tags:
+  - name: GET GIS LOCATION
+    description: Data Geo Spasial
+    externalDocs:
+      description: Deskripsi dan Kode Program
+      url: https://github.com/adam-ghafara/gcf/
+  - name: Accounting
+    description: Login and SignUp Functionality plus Token Authorize
+    externalDocs:
+      description: Deskripsi dan Kode Program
+      url: https://github.com/adam-ghafara/gcf/
+  - name: Create GIS
+    description: Data Geo Spasial
+    externalDocs:
+      description: Deskripsi dan Kode Program
+      url: https://pkg.go.dev/github.com/Fancypedia/fancybackenddd
+  - name: Geospatial Queries
+    description: Geospatial Queries
+    externalDocs:
+      description: Deskripsi dan Kode Program
+      url: https://pkg.go.dev/github.com/adam-ghafara/gis-golang
+
+paths:
+  /func-GeoIntersects:  # Penambahan endpoint $GeoIntersects
+    post:
+      tags:
+        - Geospatial Queries
+      summary: Geospatial Queries
+      description: Geospatial Queries
+      operationId: GeoIntersects
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GeoIntersects' # Gunakan skema yang sesuai di sini
+      responses:
+        '200':
+          description: Data successfully created
+        '400':
+          description: Invalid input or request body
+  /func-GeoWithin:  # Penambahan endpoint $GeoWithin
+    post:
+      tags:
+        - Geospatial Queries
+      summary: Geospatial Queries
+      description: Geospatial Queries
+      operationId: GeoWithin
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GeoWithin' # Gunakan skema yang sesuai di sini
+      responses:
+        '200':
+          description: Data successfully created
+        '400':
+          description: Invalid input or request body
+  /func-GeoNear:  # Penambahan endpoint $GeoNear
+    post:
+      tags:
+        - Geospatial Queries
+      summary: Geospatial Queries
+      description: Geospatial Queries
+      operationId: GeoNear
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GeoNear' # Gunakan skema yang sesuai di sini
+      responses:
+        '200':
+          description: Data successfully created
+        '400':
+          description: Invalid input or request body
+  /func-NearSphere:  # Penambahan endpoint $GeoWithin
+    post:
+      tags:
+        - Geospatial Queries
+      summary: Geospatial Queries
+      description: Geospatial Queries
+      operationId: NearSphere
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GeoNear' # Gunakan skema yang sesuai di sini
+      responses:
+        '200':
+          description: Data successfully created
+        '400':
+          description: Invalid input or request body
+  /func-Center:
+    post:
+      tags:
+        - Geospatial Queries
+      summary: Geospatial Queries
+      description: Geospatial Queries
+      operationId: GeoCenter
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GeoCenter' # Gunakan skema yang sesuai di sini
+      responses:
+        '200':
+          description: Data successfully created
+        '400':
+          description: Invalid input or request body
+  /func-CenterSphere:
+    post:
+      tags:
+        - Geospatial Queries
+      summary: Geospatial Queries
+      description: Geospatial Queries
+      operationId: GeoCenterSphere
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GeoCenter' # Gunakan skema yang sesuai di sini
+      responses:
+        '200':
+          description: Data successfully created
+        '400':
+          description: Invalid input or request body
+  /func-loadgis:
+    get:
+      tags:
+        - GET GIS LOCATION
+      summary: Get Data Geospasial
+      description: List Data Geospasial
+      operationId: getGeoJSON
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Peta'
+        '400':
+          description: Invalid status value
+  /func-postpoint:
+    post:
+      tags:
+        - Create GIS
+      summary: Create GIS
+      description: Create GIS
+      operationId: postPoint
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Peta'
+      responses:
+        '200':
+          description: Data successfully created
+        '400':
+          description: Invalid input or request body
+  /func-postlinestring:
+    post:
+      tags:
+        - Create GIS
+      summary: Create GIS
+      description: Create GIS
+      operationId: postLineString
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Peta'
+      responses:
+        '200':
+          description: Data successfully created
+        '400':
+          description: Invalid input or request body
+  /func-postpolygon:
+    post:
+      tags:
+        - Create GIS
+      summary: Create GIS
+      description: Create GIS
+      operationId: postPolygon
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Peta'
+      responses:
+        '200':
+          description: Data successfully created
+        '400':
+          description: Invalid input or request body
+  /func-signIn:
+    post:
+      tags:
+        - Accounting
+      summary: Login get Token
+      description: Login and Get User Token
+      operationId: authService
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LoginResponse'
+        '405':
+          description: Invalid input
+      security:
+        - token:
+            - write:apiKey
+            - read:apiKey
+  /func-signUp:
+    post:
+      tags:
+        - Accounting
+      summary: SignUp
+      description: SignUp
+      operationId: signUp
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/postSignUp'
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LoginResponse'
+        '405':
+          description: Invalid input
+      security:
+        - token:
+            - write:apiKey
+            - read:apiKey
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        username:
+          type: string
+          example: admin
+        password:
+          type: string
+          example: secret
+    LoginResponse:
+      type: object
+      properties:
+        status:
+          type: bool
+          example: false
+        message:
+          type: string
+          example: Selamat Datang.
+        token:
+          type: string
+          example: token dropped here
+    postSignUp:
+      type: object
+      properties:
+        username:
+          type: string
+          example: admin
+        password:
+          type: string
+          example: 12345
+    GeoIntersects: 
+      type: object
+      properties:
+          type:
+            type: string
+            example: "Polygon"
+          coordinates:
+            type: array
+            example: [ [ [107.59169227820036, -6.972928315950369], [107.59169227820036, -6.972928315950369], [107.59169227820036, -6.972928315950369], [107.59169227820036, -6.972928315950369], [107.59169227820036, -6.972928315950369] ] ]
+    GeoNear:
+      type: object
+      properties:
+        coordinates:
+          type: array
+          example: [107.59169227820036, -6.972928315950369]
+        min:
+          type: number
+          example: 1
+        max:
+          type: number
+          example: 5
+    GeoCenter:
+      type: object
+      properties:
+        coordinates:
+          type: array
+          example: [107.59169227820036, -6.972928315950369]
+        radius:
+          type: number
+          example: 5
+    GeoWithin:
+      type: object
+      properties:
+        coordinates:
+          type: array
+          example: [ [ [107.59169227820036, -6.972928315950369], [107.59169227820036, -6.972928315950369], [107.59169227820036, -6.972928315950369], [107.59169227820036, -6.972928315950369], [107.59169227820036, -6.972928315950369] ] ]
+    Peta:
+      type: object
+      properties:
+        type:
+          type: string
+          example: "Feature"
+        properties:
+          type: object
+          properties:
+            name:
+              type: string
+              example: "CONTOH TEMPAT"
+        geometry:
+          type: object
+          properties:
+            coordinates:
+              type: array 
+              example: [ [107.59169227820036, -6.972928315950369] ]
+            type:
+              type: string
+              example: "Point"
+  securitySchemes:
+    SECRET:
+      type: apiKey
+      name: SECRET
+      in: header
+      

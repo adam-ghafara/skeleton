@@ -1,0 +1,734 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Percetakan Grafilo"
+        },
+        "geometry": {
+          "coordinates": [
+            107.59213169568648,
+            -6.979619095617579
+          ],
+          "type": "Point"
+        },
+        "id": 0
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Puskesmas Cangkuang"
+        },
+        "geometry": {
+          "coordinates": [
+            107.5904913848812,
+            -6.9728976413030495
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Water Park Golf"
+        },
+        "geometry": {
+          "coordinates": [
+            107.58269745100438,
+            -6.984036974238862
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "SMPN 2 Dayeuhkolot"
+        },
+        "geometry": {
+          "coordinates": [
+            107.5939222031131,
+            -6.97244220683686
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Klinik Zona Sehat"
+        },
+        "geometry": {
+          "coordinates": [
+            107.59249485143062,
+            -6.973164227278247
+          ],
+          "type": "Point"
+        },
+        "id": 4
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "SD-SMP Kristen Kalam Kudus Cibaduyut"
+        },
+        "geometry": {
+          "coordinates": [
+            107.59098611573972,
+            -6.967927365170738
+          ],
+          "type": "Point"
+        },
+        "id": 5
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "SMK Assalam"
+        },
+        "geometry": {
+          "coordinates": [
+            107.59293149175102,
+            -6.966965218871806
+          ],
+          "type": "Point"
+        },
+        "id": 6
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "SD-SMP Al-Amanah"
+        },
+        "geometry": {
+          "coordinates": [
+            107.59406451823128,
+            -6.971077345997685
+          ],
+          "type": "Point"
+        },
+        "id": 7
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Miko Mall"
+        },
+        "geometry": {
+          "coordinates": [
+            107.58117580724706,
+            -6.960143634847981
+          ],
+          "type": "Point"
+        },
+        "id": 8
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Terminal Cibaduyut"
+        },
+        "geometry": {
+          "coordinates": [
+            107.59390854593744,
+            -6.961763997940054
+          ],
+          "type": "Point"
+        },
+        "id": 9
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Central Taman Cibaduyut Indah"
+        },
+        "geometry": {
+          "coordinates": [
+            107.59536538822687,
+            -6.963331159191696
+          ],
+          "type": "Point"
+        },
+        "id": 10
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Indomaret Jl. Raya Sayuran"
+        },
+        "geometry": {
+          "coordinates": [
+            107.59085974059184,
+            -6.9788527770420075
+          ],
+          "type": "Point"
+        },
+        "id": 11
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Borma Cibaduyut"
+        },
+        "geometry": {
+          "coordinates": [
+            107.59330639990583,
+            -6.963173319138363
+          ],
+          "type": "Point"
+        },
+        "id": 12
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Pertamina Terusan Cibaduyut"
+        },
+        "geometry": {
+          "coordinates": [
+            107.59118355912682,
+            -6.968210288626707
+          ],
+          "type": "Point"
+        },
+        "id": 13
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Masjid Cibaduyut"
+        },
+        "geometry": {
+          "coordinates": [
+            107.5929872085132,
+            -6.963265869478278
+          ],
+          "type": "Point"
+        },
+        "id": 14
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "SDN Margahayu 1"
+        },
+        "geometry": {
+          "coordinates": [
+            107.57749660506073,
+            -6.963003864750348
+          ],
+          "type": "Point"
+        },
+        "id": 15
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Holland Bakery Kopo"
+        },
+        "geometry": {
+          "coordinates": [
+            107.57725457954115,
+            -6.9639598723379095
+          ],
+          "type": "Point"
+        },
+        "id": 16
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Borma Toserba Kopo"
+        },
+        "geometry": {
+          "coordinates": [
+            107.57481559691269,
+            -6.967476564935865
+          ],
+          "type": "Point"
+        },
+        "id": 17
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "SMPN 38"
+        },
+        "geometry": {
+          "coordinates": [
+            107.59139689368652,
+            -6.957686217011286
+          ],
+          "type": "Point"
+        },
+        "id": 18
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Lanud Sulaiman"
+        },
+        "geometry": {
+          "coordinates": [
+            107.57082255665495,
+            -6.982026988982454
+          ],
+          "type": "Point"
+        },
+        "id": 19
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Water Park Sulaiman"
+        },
+        "geometry": {
+          "coordinates": [
+            107.58566477940491,
+            -6.9809091255515625
+          ],
+          "type": "Point"
+        },
+        "id": 20
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "SMAN 1 Margahayu"
+        },
+        "geometry": {
+          "coordinates": [
+            107.568120210301,
+            -6.9766350722862
+          ],
+          "type": "Point"
+        },
+        "id": 21
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "TVRI Bandung"
+        },
+        "geometry": {
+          "coordinates": [
+            107.59361662351256,
+            -6.959398602467019
+          ],
+          "type": "Point"
+        },
+        "id": 22
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Toko Sepatu Diana"
+        },
+        "geometry": {
+          "coordinates": [
+            107.59304642442095,
+            -6.957283295514429
+          ],
+          "type": "Point"
+        },
+        "id": 23
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "KFC Cibaduyut"
+        },
+        "geometry": {
+          "coordinates": [
+            107.59303313201036,
+            -6.9576547279374665
+          ],
+          "type": "Point"
+        },
+        "id": 24
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Kopi Kenangan Cibaduyut"
+        },
+        "geometry": {
+          "coordinates": [
+            107.59310950324124,
+            -6.958144865250787
+          ],
+          "type": "Point"
+        },
+        "id": 25
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Pusat Sepatu dan Oleh-oleh Grutty"
+        },
+        "geometry": {
+          "coordinates": [
+            107.59342402101925,
+            -6.95169751981183
+          ],
+          "type": "Point"
+        },
+        "id": 26
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "RS Santosa"
+        },
+        "geometry": {
+          "coordinates": [
+            107.58641852597503,
+            -6.952851236265289
+          ],
+          "type": "Point"
+        },
+        "id": 27
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Hotel 88 Bandung"
+        },
+        "geometry": {
+          "coordinates": [
+            107.58581830436168,
+            -6.951650309946075
+          ],
+          "type": "Point"
+        },
+        "id": 28
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Pondok Pesantren Sirna Miskin"
+        },
+        "geometry": {
+          "coordinates": [
+            107.58705625272052,
+            -6.950234101086551
+          ],
+          "type": "Point"
+        },
+        "id": 29
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Bekam Ruqyah BRC"
+        },
+        "geometry": {
+          "coordinates": [
+            107.59535619442079,
+            -6.948018422835148
+          ],
+          "type": "Point"
+        },
+        "id": 30
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Pusat HP"
+        },
+        "geometry": {
+          "coordinates": [
+            107.58994110740724,
+            -6.9723353411844045
+          ],
+          "type": "Point"
+        },
+        "id": 31
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Pusat HP Samsung"
+        },
+        "geometry": {
+          "coordinates": [
+            107.58976355590914,
+            -6.972343116411906
+          ],
+          "type": "Point"
+        },
+        "id": 32
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Qiu Qiu Cell"
+        },
+        "geometry": {
+          "coordinates": [
+            107.58994894056116,
+            -6.972496029186644
+          ],
+          "type": "Point"
+        },
+        "id": 33
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "RS Lanus Sulaiman"
+        },
+        "geometry": {
+          "coordinates": [
+            107.5641055315898,
+            -6.983558925493369
+          ],
+          "type": "Point"
+        },
+        "id": 34
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Masjid Jami Al Ikhlas"
+        },
+        "geometry": {
+          "coordinates": [
+            107.57598350171963,
+            -6.969586014306145
+          ],
+          "type": "Point"
+        },
+        "id": 35
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Masjid Persis"
+        },
+        "geometry": {
+          "coordinates": [
+            107.58996696739774,
+            -6.972694771639098
+          ],
+          "type": "Point"
+        },
+        "id": 36
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Pusat LPG Cibaduyut"
+        },
+        "geometry": {
+          "coordinates": [
+            107.59375510167928,
+            -6.961265219183431
+          ],
+          "type": "Point"
+        },
+        "id": 37
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Pusat Olahraga Lapang Golf"
+        },
+        "geometry": {
+          "coordinates": [
+            107.5835695670134,
+            -6.981071837987031
+          ],
+          "type": "Point"
+        },
+        "id": 38
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Pasar Desa"
+        },
+        "geometry": {
+          "coordinates": [
+            107.59280380468658,
+            -6.969696601894469
+          ],
+          "type": "Point"
+        },
+        "id": 39
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "RS Immanuel"
+        },
+        "geometry": {
+          "coordinates": [
+            107.59654037340954,
+            -6.935637912839894
+          ],
+          "type": "Point"
+        },
+        "id": 40
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "RS Astana Anyar"
+        },
+        "geometry": {
+          "coordinates": [
+            107.60047463809889,
+            -6.92933483416104
+          ],
+          "type": "Point"
+        },
+        "id": 41
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Taman Tegalega"
+        },
+        "geometry": {
+          "coordinates": [
+            107.60485603379169,
+            -6.934931673928276
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Pasar Leuwipanjang"
+        },
+        "geometry": {
+          "coordinates": [
+            107.59716141700869,
+            -6.9387113679235455
+          ],
+          "type": "Point"
+        },
+        "id": 43
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Lapas Banceuy"
+        },
+        "geometry": {
+          "coordinates": [
+            107.60087152938041,
+            -6.949452349529196
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "STT Bandung"
+        },
+        "geometry": {
+          "coordinates": [
+            107.60110744582454,
+            -6.948240440303707
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Museum Sri Baduga"
+        },
+        "geometry": {
+          "coordinates": [
+            107.60341314690385,
+            -6.937765163686521
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Al Imarat"
+        },
+        "geometry": {
+          "coordinates": [
+            107.60299700250226,
+            -6.942688956231109
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Pasar Ulekan Pagarsih"
+        },
+        "geometry": {
+          "coordinates": [
+            107.59555994780601,
+            -6.923386359835078
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Pasar Margahayu"
+        },
+        "geometry": {
+          "coordinates": [
+            107.56135594980702,
+            -6.974698547051901
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Yogya Kopo Mas"
+        },
+        "geometry": {
+          "coordinates": [
+            107.58022546522108,
+            -6.95919085903752
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Terminal Leuwipanjang"
+        },
+        "geometry": {
+          "coordinates": [
+            107.59429771072553,
+            -6.94590246791789
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "MTS-MA Pesantren Persis Persatuan Islam 1-2 Bandung"
+        },
+        "geometry": {
+          "coordinates": [
+            107.60031083768621,
+            -6.923315666759592
+          ],
+          "type": "Point"
+        }
+      }
+    ]
+  }

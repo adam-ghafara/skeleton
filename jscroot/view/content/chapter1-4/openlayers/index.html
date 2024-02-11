@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenLayers</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/openlayers@4.6.5/dist/ol.css" />
+
+    <!-- Additional CSS -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Button Style -->
+  <style>
+    .buttons {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .buttons a {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+  </style>
+    <div class="buttons">
+        <a href="../index.html">HOME</a>
+      </div>
+    <div>
+        <h1>DATA GEO OPENLAYERS</h1>
+        <h2>Nama: Adam Ghafara</h2>
+        <h2>NPM: 1214064</h2>
+        <h2>Prodi/Kelas: D4 Teknik Informatika / 3C</h2>
+        <button id="ambilData">Ambil Data dari API</button>
+        <div id="hasil"></div>
+        <div id="map" style="height: 500px;"></div>
+
+        <!-- Add a table to display GeoJSON data -->
+        <table border="1">
+            <tr>
+                <th>No</th>
+                <th>Nama Tempat</th>
+                <th>Jalan</th>
+                <th>Koordinat Tempat</th>
+                <th>Tipe Data Json</th>
+            </tr>
+            <tbody id="geojson-table">
+                <!-- Rows for GeoJSON data will be added here -->
+            </tbody>
+        </table>
+        <!-- Include OpenLayers via CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/openlayers@4.6.5/dist/ol.js"></script>
+
+        <!-- Your JavaScript code here -->
+        <script type="module" src="../openlayers/script.js"></script>
+        <script type="module" src="../openlayers/script2.js"></script>
+    </div>
+</body>
+</html>
