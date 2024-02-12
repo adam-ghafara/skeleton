@@ -1,7 +1,7 @@
 const map = new ol.Map({
     target: 'map',
     view: new ol.View({
-        center: ol.proj.fromLonLat([107.58032031133888, -6.878124785406527]),
+        center: ol.proj.fromLonLat([107.59304642442095, -6.957283295514429]),
         zoom: 14.6
     })
 });
@@ -137,6 +137,6 @@ function addGeoJSONToMapAndTable(geoJSONUrl, map, table) {
 }
 
 // Call the function for each GeoJSON URL
-addGeoJSONToMapAndTable('https://raw.githubusercontent.com/adam-ghafara/skeleton/main/openlayers/json/geopoint.json', map, document.querySelector('table'));
-addGeoJSONToMapAndTable('https://raw.githubusercontent.com/adam-ghafara/skeleton/main/openlayers/json/geoline.json', map, document.querySelector('table'));
-addGeoJSONToMapAndTable('https://raw.githubusercontent.com/adam-ghafara/skeleton/main/openlayers/json/geoterritory.json', map, document.querySelector('table'));
+addGeoJSONToMapAndTable('https://raw.githubusercontent.com/adam-ghafara/skeleton/main/jscroot/view/content/chapter1-4/openlayers/json/geopoint.json', map, document.querySelector('table'));
+addGeoJSONToMapAndTable('https://raw.githubusercontent.com/adam-ghafara/skeleton/main/jscroot/view/content/chapter1-4/openlayers/json/geoline.json', map, document.querySelector('table'));
+addGeoJSONToMapAndTable('https://raw.githubusercontent.com/adam-ghafara/skeleton/main/jscroot/view/content/chapter1-4/openlayers/json/geoterritory.json', map, document.querySelector('table'));
