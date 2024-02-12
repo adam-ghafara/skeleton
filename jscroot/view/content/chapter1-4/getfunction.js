@@ -65,7 +65,7 @@ export function Addlayer() {
       
       const currentURL = getCurrentURL();
       console.log(currentURL);
-    const allowedDomain = ["https://github.com/adam-ghafara/skeleton/", "https://github.com/adam-ghafara/skeleton/index.html", "https://github.com/Dzikri7/GIS-Baru/Post%20GCF/index.html", "https://github.com/Dzikri7/GIS-Baru/Post%20GCF/", "https://github.com/Dzikri7/GIS-Baru/openlayers", "https://github.com/Dzikri7/GIS-Baru/openlayers/index.html"];
+    const allowedDomain = ["https://github.com/adam-ghafara/skeleton/", "https://github.com/adam-ghafara/skeleton/index.html", "https://github.com/adam-ghafara/skeleton/Post%20GCF/index.html", "https://github.com/adam-ghafara/skeleton/Post%20GCF/", "https://github.com/adam-ghafara/skeleton/openlayers", "https://github.com/adam-ghafara/skeleton/openlayers/index.html"];
   
     if (!currentURL.includes(allowedDomain)) {
         showAlertOnEveryClick();
